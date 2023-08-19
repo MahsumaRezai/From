@@ -10,25 +10,15 @@ body {
   font-family:  sans-serif;
 
 }
-.head {
-  background: white;
-  width: 100%;
-  color: #f3a20d;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 30px
-}
-@media screen and (max-width:900px){
- .head {
-   font-size: 18px
- }
-}
+
 .btn {
   width: 200px;
-  padding: 20px;
   background: #183661;
   border: none;
   color: white;
   font-size: 18px;
+  padding: 30px
+
+
   
 }
