@@ -10,7 +10,6 @@ const AddCart = (props) => {
     const AddClose = () => {
         setClose(true);
         console.log(close)
-
     }
     return (
         <div className={classes.cart}>
@@ -18,9 +17,6 @@ const AddCart = (props) => {
             <Button onClick={AddHandler} onClose={AddClose}>Add me</Button>
             {add && <h1> Welcome to this page</h1>}
             {close && <h2>Goodby see you</h2>}
-
-
-
         </div>
     )
 }
