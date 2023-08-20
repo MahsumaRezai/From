@@ -13,9 +13,6 @@ const Form = (props) => {
                     <input placeholder="Password" />
                     <Button>Sign In</Button>
                     <p>Do forget your password ?</p>
-
-
-
                 </form>
 
             </Cart>
