@@ -5,6 +5,22 @@
     align-items: center;
     gap: 20px
 }
+input {
+    height: 47px;
+    border-radius: 8px;
+    border: none;
+    width: 300px;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 10px;
+
+ 
+}
+input:focus-visible {
+    outline: none;
+}
+
+
 .img {
     width: 100px;
     height: 100px;
