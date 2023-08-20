@@ -32,6 +32,11 @@ h1{
   color: darkred;
 
 }
+.card{
+  background: white;
+  box-shadow:  0 2px 8px  rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
 h2 {
   color: royalblue;
   font-size: 30px
