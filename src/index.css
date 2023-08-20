@@ -18,12 +18,14 @@ body {
 }
 
 .btn {
-  width: 200px;
-  background: #183661;
+  width: 300px;
+  background: #dac494;
   border: none;
-  color: white;
-  font-size: 18px;
-  padding: 30px
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 50px
 }
 h1{
   font-size: 30px;
