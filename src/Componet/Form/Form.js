@@ -7,11 +7,12 @@ const Form = (props) => {
     return (
         <Fragment>
             <Cart>
-                <FormContact/>
+                <FormContact />
                 <form className={classes.form}>
                     <input placeholder="Name" />
                     <input placeholder="Password" />
                     <Button>Sign In</Button>
+                    <p>Do forget your password ?</p>
 
 
 
