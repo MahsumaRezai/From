@@ -1,0 +1,11 @@
+.cart {
+    padding: 30px;
+    background: #505050d1;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    border-top: 5px solid #dac494;    
+}
