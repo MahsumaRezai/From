@@ -8,7 +8,12 @@ body {
   font-family: sans-serif;
   margin: 0;
   font-family:  sans-serif;
-  background: whitesmoke
+  background-image: url('../src/Componet/image/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
 
 }
 
