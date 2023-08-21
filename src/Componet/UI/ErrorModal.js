@@ -5,7 +5,7 @@ import Button from './Button';
 import classes from './ErrorModal.module.css';
 import { Fragment } from 'react';
 const Backdrop = (props) => {
-    return <div className={classes.backdrop} onClick={props.onconfirm} />
+    return <div className={classes.backdrop} onClick={props.onHide} />
 }
 const Modaloerlay = (props) => {
     return (
@@ -14,10 +14,12 @@ const Modaloerlay = (props) => {
                 <h1>Welcome</h1>
             </header>
             <div className={classes.content}>
-                <p>This is a Login page</p>
+                <p>
+                    Hello I am Masoumeh Rezai and I Love Coding
+                </p>
             </div>
             <footer className={classes.actions}>
-                <Button onClick={props.onconfirm}>Okay</Button>
+                <Button onClick={props.onHide}>Okay</Button>
             </footer>
         </Card>
     )
@@ -25,8 +27,8 @@ const Modaloerlay = (props) => {
 const ErroModal = (props) => {
     return (
         <Fragment>
-            {ReactDom.createPortal(<Backdrop onconfirm={props.onconfirm} />, document.getElementById('backdrop-root'))}
-            {ReactDom.createPortal(<Modaloerlay title={props.title} massage={props.massage} onconfirm={props.onconfirm} />,
+            {ReactDom.createPortal(<Backdrop onHide={props.onHide} />, document.getElementById('backdrop-root'))}
+            {ReactDom.createPortal(<Modaloerlay />,
                 document.getElementById('overlay-root'))}
         </Fragment>
     )
